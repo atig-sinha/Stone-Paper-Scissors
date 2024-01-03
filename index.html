@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Stone-Paper-Scissors</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h3 class="yourcolor">Your Score : <span class="uscore">0</span></h3> <h2>Rock-Paper-Scissors</h2> <h3 class="cpucolor">CPU Score : <span class="cscore">0</span></h3>
+        </div>
+
+        <div class="status">
+            <h3> LET'S BEGIN </h3>
+        </div>
+        
+        <div class="content">
+
+            <div class="hands">
+                <div class="player_hand">
+                   <img src="assets/default_left2.png" alt="" class="hand default">
+                </div>
+    
+                <div class="cpu_hand">
+                   <img src="assets/default_right2.png" alt="" class="hand default">
+                </div>
+
+            </div>
+    
+        </div>
+        
+
+        <div class="buttons">
+            <button value="stone" class="btn"><img src="assets/Stone.png" alt=""></button>
+            <button value="paper" class="btn"><img src="assets/Paper.png" alt=""></button>
+            <button value="scissor" class="btn"><img src="assets/scissors.png" alt=""></button>
+         </div>
+    </div>
+    <div class="win-lose disp">
+        <div class="showresult"></div>
+        <div class="startover"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
